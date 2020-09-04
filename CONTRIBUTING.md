@@ -24,7 +24,7 @@ Keep an open mind! Improving documentation, bug triaging, or writing tutorials a
 
 ### Explain contributions you are NOT looking for (if any)
 
-Again, defining this up front means less work for you. If someone ignores your guide and submits something you don’t want, you can simply close it and point to your policy.
+Again, defining this up front means less work for you. If someone ignores your guide and submits something you don't want, you can simply close it and point to your policy.
 
 > Please, don't use the issue tracker for [support questions]. Check whether the #pocoo IRC channel on Freenode can help with your issue. If your problem is not strictly Werkzeug or Flask specific, #python is generally more active. Stack Overflow is also worth considering.
 
@@ -80,7 +80,7 @@ How you write this is up to you, but some things you may want to include:
 
 * Let them know if they need to sign a CLA, agree to a DCO, or get any other legal stuff out of the way
 * If tests are required for contributions, let them know, and explain how to run the tests
-* If you use anything other than GitHub to manage issues (ex. JIRA or Trac), let them know which tools they’ll need to contribute
+* If you use anything other than GitHub to manage issues (ex. JIRA or Trac), let them know which tools they'll need to contribute
 
 > For something that is bigger than a one or two line fix:
 >
@@ -106,7 +106,7 @@ How you write this is up to you, but some things you may want to include:
 > * Comment clean up
 > * Bug fixes that change default return values or error codes stored in constants
 > * Adding logging messages or debugging output
-> * Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.
+> * Changes to ‘metadata' files like Gemfile, .gitignore, build scripts, etc.
 > * Moving source files from one directory or package to another
 
 [source: [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#chef-obvious-fix-policy)] **Need more inspiration?** [1] [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#making-trivial-changes)
@@ -119,7 +119,7 @@ At bare minimum, include this sentence:
 
 > If you find a security vulnerability, do NOT open an issue. Email XXXX instead.
 
-If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
+If you don't want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)
 
 > Any security issues should be submitted directly to security@travis-ci.org
 > In order to determine whether you are dealing with a security issue, ask yourself these two questions:
@@ -150,7 +150,7 @@ You can even include a template so people can just copy-paste (again, less work 
 
 ### If you have a particular roadmap, goals, or philosophy for development, share it here
 
-This information will give contributors context before they make suggestions that may not align with the project’s needs.
+This information will give contributors context before they make suggestions that may not align with the project's needs.
 
 > The Express philosophy is to provide small, robust tooling for HTTP servers, making it a great solution for single page applications, web sites, hybrids, or public HTTP APIs.
 >
@@ -160,7 +160,7 @@ This information will give contributors context before they make suggestions tha
 
 ### Explain your desired process for suggesting a feature
 
-If there is back-and-forth or signoff required, say so. Ask them to scope the feature, thinking through why it’s needed and how it might work.
+If there is back-and-forth or signoff required, say so. Ask them to scope the feature, thinking through why it's needed and how it might work.
 
 > If you find yourself wishing for a feature that doesn't exist in Elasticsearch, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that Elasticsearch has today have been added because our users saw the need. Open an issue on our issues list on GitHub which describes the feature you would like to see, why you need it, and how it should work.
 
@@ -168,9 +168,9 @@ If there is back-and-forth or signoff required, say so. Ask them to scope the fe
 
 ## Code review process
 
-### Explain how a contribution gets accepted after it’s been submitted
+### Explain how a contribution gets accepted after it's been submitted
 
-Who reviews it? Who needs to sign off before it’s accepted? When should a contributor expect to hear from you? How can contributors get commit access, if at all?
+Who reviews it? Who needs to sign off before it's accepted? When should a contributor expect to hear from you? How can contributors get commit access, if at all?
 
 > The core team looks at Pull Requests on a regular basis in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates that are sent to the puppet-dev list. Notes are posted to the Puppet Community community-triage repo and include a link to a YouTube recording of the hangout.
 > After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
