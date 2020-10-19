@@ -1,9 +1,6 @@
 # env-var-pattern
 
-## Table of Contents
-
 - [env-var-pattern](#env-var-pattern)
-  - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Goals](#goals)
   - [History](#history)
@@ -26,10 +23,10 @@ accidentally; and unlike custom config files, or other config mechanisms such as
 Java System Properties, they are a language- and OS-agnostic standard.
 
 Another aspect of config management is grouping. Sometimes apps batch config
-into named groups (often called "environments") named after specific deploys, 
+into named groups (often called "environments") named after specific deploys,
 such as the development, test, and production environments in Rails. This method
 does not scale cleanly: as more deploys of the app are created, new environment
-names are necessary, such as staging or qa. As the project grows further, 
+names are necessary, such as staging or qa. As the project grows further,
 developers may add their own special environments like joes-staging, resulting
 in a combinatorial explosion of config which makes managing deploys of the app
 very brittle.
@@ -76,7 +73,7 @@ system.
 
 What things you need to install the software and how to install them.
 
-``` 
+```
 Give examples
 ```
 
@@ -87,13 +84,13 @@ running.
 
 Say what the step will be
 
-``` 
+```
 Give the example
 ```
 
 And repeat
 
-``` 
+```
 until finished
 ```
 
